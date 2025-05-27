@@ -1,0 +1,229 @@
+<head>
+    <title>
+        Escape Room 3DI
+    </title>
+    <link href="escaperoomthing.css" rel="stylesheet">
+    <script>
+        function checkAnswers() 
+        {
+        // document.$formName.$inputName
+        Student_answer = document.f1.studentAnswer.value
+        Right_answer = "livelli"
+
+        if (Student_answer.length == 0 || Right_answer.length == 0) {
+            alert("Devi inserire una parola per continuare...");
+            return false;
+        }
+
+        if (Student_answer == Right_answer) {
+            alert("Risposta corretta! Hai completato il test della 3DI sull'architettura della CPU!");
+        } else {
+            alert("Risposta errata! Riprova...");
+        }
+
+        }
+    </script>
+</head>
+
+<body>
+    <div id="main_container">
+        <div id="header">
+            Argomento del quiz: Architettura della CPU
+        </div>
+        <div id="sub_header">
+            Tecniche per il miglioramento delle prestazioni dei microprocessori
+        </div>
+        <ul>
+            <!-- quale delle seguenti tecniche e' divisa in livelli -->
+            <li>
+                e
+            </li>
+            <li>
+                c
+            </li>
+            <li>
+                c
+            </li>
+            <li>
+                e
+            </li>
+            <li>
+                d
+            </li>
+            <li>
+                a
+            </li>
+            <li>
+                 
+            </li>
+            <li>
+                s
+            </li>
+            <li>
+                e
+            </li>
+            <li>
+                q
+            </li>
+            <li>
+                u
+            </li>
+            <li>
+                e
+            </li>
+            <li>
+                l
+            </li>
+            <li>
+                e
+            </li>
+            <li>
+                 
+            </li>
+            <li>
+                l
+            </li>
+            <li>
+                e
+            </li>
+            <li>
+                n
+            </li>
+            <li>
+                i
+            </li>
+            <li>
+                n
+            </li>
+            <li>
+                 
+            </li>
+            <li>
+                l
+            </li>
+            <li>
+                i
+            </li>
+            <li>
+                t
+            </li>
+            <li>
+                e
+            </li>
+            <li>
+                 
+            </li>
+            <li>
+                t
+            </li>
+            <li>
+                h
+            </li>
+            <li>
+                u
+            </li>
+            <li>
+                g
+            </li>
+            <li>
+                
+            </li>
+            <li>
+                d
+            </li>
+            <li>
+                e
+            </li>
+            <li>
+                s
+            </li>
+            <li>
+                i
+            </li>
+            <li>
+                n
+            </li>
+            <li>
+                a
+            </li>
+            <li>
+                i
+            </li>
+            <li>
+                 
+            </li>
+            <li>
+                v
+            </li>
+            <li>
+                i
+            </li>
+            <li>
+                l
+            </li>
+            <li>
+                l
+            </li>
+            <li>
+                e
+            </li>
+            <li>
+                 
+            </li>
+            <li>
+                v
+            </li>
+            <li>
+                i
+            </li>
+            <li>
+                l
+            </li>
+            <li>
+                i
+            </li>
+        </ol>
+
+        <div id="options">
+            <div>
+                <img src="">
+                testo
+            </div>
+            <div>
+                <img src="">
+                testo
+            </div>
+            <div>
+                <img src="">
+                testo
+            </div>
+            <div>
+                <img src="">
+                testo
+            </div>
+            <div>
+                <img src="">
+                testo
+            </div>
+            <div>
+                <img src="">
+                testo
+            </div>
+        </div>
+
+        <div id="question_checker">
+            <h3>
+            Scrivi qui l'ultima parola della domanda:
+            </h3>
+            <br>
+            (La parola deve essere scritta senza maiuscole)
+            <br>
+            <form name="f1">
+            La tua risposta: <input name="studentAnswer" size="20">
+            <br>
+            <br>
+            <input type="button" value="Controlla" onClick="checkAnswers()">
+            </form>
+        </div>
+    </div>
+</body>
